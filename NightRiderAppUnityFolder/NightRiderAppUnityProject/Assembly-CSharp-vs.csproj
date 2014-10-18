@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\ApplyAudioColor.cs" />
      <Compile Include="Assets\Scripts\AudioDirectorScript.cs" />
      <Compile Include="Assets\Scripts\CubeRotate.cs" />
+     <Compile Include="Assets\Scripts\ParticlePositions.cs" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
