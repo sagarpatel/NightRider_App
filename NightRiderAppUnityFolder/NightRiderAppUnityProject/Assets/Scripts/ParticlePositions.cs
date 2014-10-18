@@ -9,6 +9,8 @@ public class ParticlePositions : MonoBehaviour
 
 	public ParticleSystem.Particle[] particlesArray;
 
+	public float posScale = 1.0f;
+
 	void Start () 
 	{
 		particlesArray = new ParticleSystem.Particle[lengthCount * lengthCount * lengthCount];
@@ -20,6 +22,7 @@ public class ParticlePositions : MonoBehaviour
 		int xCounter = 0;
 		int yCounter = 0;
 		int zCounter = 0;
+		Vector3 posOffset = new Vector3(lengthCount, lengthCount, lengthCount);
 		for(int i = 0 ; i < positionsArray.Length; i++)
 		{
 
@@ -27,7 +30,7 @@ public class ParticlePositions : MonoBehaviour
 			tempPos.y = yCounter;
 			tempPos.z = zCounter;
 
-			positionsArray[i] = tempPos;
+			positionsArray[i] = posScale * ( tempPos - 0.5f * posOffset);
 
 			xCounter += 1;
 			if(xCounter == lengthCount - 1)
