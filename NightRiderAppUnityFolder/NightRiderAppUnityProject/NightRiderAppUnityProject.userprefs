@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Audiodirector.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CubeRotate.cs">
     <Files>
-      <File FileName="Assets/Scripts/Audiodirector.cs" Line="22" Column="69" />
+      <File FileName="Assets/Scripts/AudioDirectorScript.cs" Line="127" Column="1" />
+      <File FileName="Assets/Scripts/CubeRotate.cs" Line="19" Column="57" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
